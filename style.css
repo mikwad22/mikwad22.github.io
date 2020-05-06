@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body, button, input, select, textarea {
+body, button, input, select, textarea, h2 {
     display: flex;
     flex-direction: column;
     background: rgba(255, 255, 255, 1);
@@ -121,7 +121,7 @@ video {
     line-height: 1.3;
     width: 60%;  
     bottom: 0;
-    z-index: 1e;
+    z-index: 1;
     position: inherit;
     float: left;
 }
@@ -238,7 +238,7 @@ a.wpnb-bar-button {
 .center {
     text-align: center;
     color: #348db9;
-    margin-bottom: .20em;
+    margin-bottom: .50em;
     font-size: 42px;
 }
 .column {
@@ -271,17 +271,49 @@ a.wpnb-bar-button {
     padding: 16px;
     text-align: center;
     background-color: white;
-    height: 300px;
-    line-height: 1.4;
-    font-size: 17px;
+    height: 400px;
+    line-height: 1.3;
+    font-size: 18px;
+    cursor: pointer;
 }
 p {
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 85px;
     color: #676767;
+    line-height: 1.3;
 }
 
 h2 {
     display: block;
+    font-weight: bold;
+   
+}
+
+.cardButton {
+    background: #e33e42;
+    color: #fff;
+    text-align: center;
+    padding: .5em;
+    font-weight: 700;
+    cursor: poiner;
+    display: inline-flexbox;
+}
+
+.mt-0 {
+    text-align: left;
+    color: #348db9;
+    font-size: 38px;
+    font-weight: 600;
+    display: block;
+    line-height: 1.2;
+}
+
+.media-body {
+    text-align: left;
+    margin: -220px 250px 50px 250px;
+}
+
+.media {
+    margin: 50px 20px 50px 200px;
 }
 
